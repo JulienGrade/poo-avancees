@@ -2,6 +2,9 @@
 
 class JsonFileReader
 {
+    /**
+     * @throws Exception
+     */
     public function readFileAsAssociativeArray(string $filename): array
     {
         if (!file_exists($filename)) {
