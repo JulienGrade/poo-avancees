@@ -1,5 +1,6 @@
 <?php
-final class PercentageCalculator
+//final
+class PercentageCalculator
 {
     public function calculatePercentage($part, $whole): float
     {
